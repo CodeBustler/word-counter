@@ -16,7 +16,7 @@ function wordCounter() {
   let totalWords = splitWords.length;
 
   // Displaying output
-  displayCount.innerHTML = `Words Count : ${totalWords}`;
+  displayCount.innerHTML = ` ${totalWords}`;
 }
 
 btn.addEventListener('click', wordCounter);
